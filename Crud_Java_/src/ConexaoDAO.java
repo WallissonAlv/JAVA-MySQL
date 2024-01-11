@@ -1,3 +1,5 @@
+// ESTA É UMA CLASSE DE CONEXAO !!!
+
 
 import java.sql.Connection; /*A classe Connection representa a conexão física
 com o banco de dados e é obtida por meio do método DriverManager.*/
@@ -15,6 +17,7 @@ public class ConexaoDAO {
         
         try {   /* VERIFICACAO: TENTAR FAZER O QUE ESTA NO PRIMEIRO COLCHETE,
             FAZER O QUE ESTA NO SEGUNDO COLCHETE(CATCH) */
+            
             String url = "jdbc:mysql://localhost:3306/bancoteste?user=root&password=";
             con = DriverManager.getConnection(url);
         } catch (SQLException erro) {
