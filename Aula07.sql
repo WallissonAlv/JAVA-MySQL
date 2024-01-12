@@ -16,26 +16,26 @@ insert into cursos values
 
 update cursos
 set nome = 'HTML5'
-where idcursos = '1'; 
+where idcursos = '1';  // ATUALIZAR 
 
 update cursos
 set nome = 'PHP', ano = '2015'
-where idcursos = '4';
+where idcursos = '4'; // ATUALIZAR
 
 update cursos
 set nome = 'JAVA', ano = '2015', carga = '40'
 where idcursos = '5'
-limit 1;
+limit 1; // ATUALIZAR LIMITANDO LINHA POR SEGURANÇA
 
 update cursos
 set ano = '2050', carga = '800'
-where ano = '2018';
+where ano = '2018'; // ATUALIZANDO SEM CHAVE PRIMARIA
 
 delete from cursos
-where idcursos = '8';
+where idcursos = '8'; // APAGANDO LINHA POR ID
 
 delete from cursos
 where ano = '2018'
-limit 3;
+limit 3; // APAGANDO MAIS DE UM REGISTRO LIMITANDO
 
-truncate table cursos;
+truncate table cursos; // APAGAR TODOS REGISTROS MANTENDO A ESTRUTURA
