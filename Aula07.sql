@@ -30,3 +30,12 @@ limit 1;
 update cursos
 set ano = '2050', carga = '800'
 where ano = '2018';
+
+delete from cursos
+where idcursos = '8';
+
+delete from cursos
+where ano = '2018'
+limit 3;
+
+truncate table cursos;
