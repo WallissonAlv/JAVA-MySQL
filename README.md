@@ -1,2 +1,2 @@
-# JAVA-MySQL
- Aprendendo a utilizar JAVA e MySQL
+# MySQL
+ Aprendendo a utilizar o ambiente MySQL com o MySQL Workbench, criando um banco de dados com servidor local(XAMPP) e fazendo as linhas de código com professor Gustavo Guanabara...
